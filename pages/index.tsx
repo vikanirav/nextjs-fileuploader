@@ -167,14 +167,14 @@ const Home: NextPage = () => {
                     onClick={onCancelFile}
                     className="w-1/2 px-4 py-3 text-sm font-medium text-white transition-colors duration-300 bg-gray-700 rounded-sm md:w-auto md:text-base disabled:bg-gray-400 hover:bg-gray-600"
                   >
-                    Cancel file
+                    Cancel
                   </button>
                   <button
                     disabled={!previewUrl}
                     onClick={onUploadFile}
                     className="w-1/2 px-4 py-3 text-sm font-medium text-white transition-colors duration-300 bg-gray-700 rounded-sm md:w-auto md:text-base disabled:bg-gray-400 hover:bg-gray-600"
                   >
-                    Upload file
+                    Upload
                   </button>
                 </div>
               </div>
